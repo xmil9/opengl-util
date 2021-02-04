@@ -107,8 +107,9 @@ bool setDebugOutputCallback(DebugCallback callback)
 }
 
 
-void logDebugInfo(GLenum source, GLenum type, unsigned int id, GLenum severity,
-                  GLsizei /*length*/, const char* message, const void* /*userParam*/)
+void APIENTRY logDebugInfo(GLenum source, GLenum type, unsigned int id, GLenum severity,
+                           GLsizei /*length*/, const char* message,
+                           const void* /*userParam*/)
 {
    std::string log = "[OpenGL Debug] - ";
    log += "[Message id]: " + std::to_string(id);
