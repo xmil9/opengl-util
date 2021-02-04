@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Glad">
+      <UniqueIdentifier>{63397052-c8ec-446c-b927-12de5d57cff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Glfw Utilities">
+      <UniqueIdentifier>{57aed4ab-6496-42d5-93ec-32d4173e591f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL Utilities">
+      <UniqueIdentifier>{e8681f9c-7afb-4fd2-8970-2ffac2c0b071}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\deps\glad\src\glad.c">
+      <Filter>Glad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gfl_lib.cpp">
+      <Filter>Glfw Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gfl_window.cpp">
+      <Filter>Glfw Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gll_binding.cpp">
+      <Filter>OpenGL Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gll_debug.cpp">
+      <Filter>OpenGL Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gll_program.cpp">
+      <Filter>OpenGL Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gll_shader.cpp">
+      <Filter>OpenGL Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gll_texture.cpp">
+      <Filter>OpenGL Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\gfl_lib.h">
+      <Filter>Glfw Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gfl_types.h">
+      <Filter>Glfw Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gfl_window.h">
+      <Filter>Glfw Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gll_binding.h">
+      <Filter>OpenGL Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gll_data_format.h">
+      <Filter>OpenGL Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gll_debug.h">
+      <Filter>OpenGL Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gll_object.h">
+      <Filter>OpenGL Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gll_program.h">
+      <Filter>OpenGL Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gll_shader.h">
+      <Filter>OpenGL Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gll_texture.h">
+      <Filter>OpenGL Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gll_types.h">
+      <Filter>OpenGL Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gll_uniform.h">
+      <Filter>OpenGL Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gll_vao.h">
+      <Filter>OpenGL Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gll_vbo.h">
+      <Filter>OpenGL Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
