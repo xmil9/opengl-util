@@ -24,3 +24,9 @@ mkdir %to%
 robocopy %from% %to% opengl_util.vcxproj
 robocopy %from% %to% opengl_util.vcxproj.filters
 robocopy %from% %to% deploy_as_sources.bat
+
+:: Deploy dependencies.
+set from=%src%\deps
+set to=%dest%\deps
+mkdir %to%
+robocopy %from% %to% *.* /e
