@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\deps\glad\src\glad.c" />
+    <ClCompile Include="..\..\deps\stb\stb_image.cpp" />
     <ClCompile Include="..\..\gfl_lib.cpp" />
     <ClCompile Include="..\..\gfl_window.cpp" />
     <ClCompile Include="..\..\gll_binding.cpp" />
@@ -29,6 +30,7 @@
     <ClCompile Include="..\..\gll_texture.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\deps\stb\stb_image.h" />
     <ClInclude Include="..\..\gfl_lib.h" />
     <ClInclude Include="..\..\gfl_types.h" />
     <ClInclude Include="..\..\gfl_window.h" />
